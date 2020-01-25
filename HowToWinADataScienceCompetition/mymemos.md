@@ -103,7 +103,7 @@ Bag of words and Word2vec
   - histograms
     - データ頻度や分布、最大最小が見れる
     - 外れ値を把握しやすい
-  - 統計値
+  - 統計値(describe-function)
   - scatter index vs value
     - labelのクラス分け等が視覚化される
 - データの関係性
@@ -207,7 +207,6 @@ LBの調査
   - 全ターゲットを一意のデータにしてpublic/privateの変化を観察
   - 確実性の高いカテゴリには同じラベルがつけられる
   - N1(ターゲットが1の行数) / N(実際の行数) = (-L(一定の予測で得られるLBスコア) - ln(1-C)) / (lnC - ln(1-C))この式に沿ってテストとpublic/privateの違いを把握できた
-
 
 # Metrics optimization
 - なぜ評価指標は多く存在するか?
@@ -555,3 +554,9 @@ RMSLE
 - [Mean Encoding](https://necromuralist.github.io/kaggle-competitions/posts/mean-encoding/)
 - [courseraのKaggle講座内容まとめ](https://qiita.com/saitosasaki/items/da2a0f6ad2cc5c5ea7a2)
 - [KAGGLE ENSEMBLING GUIDE](https://mlwave.com/kaggle-ensembling-guide/)
+- [Biclustering](https://scikit-learn.org/stable/auto_examples/bicluster/plot_spectral_biclustering.html)
+- 
+## package
+- [Bokeh](https://github.com/bokeh/bokeh)
+- [ggplot](http://ggplot.yhathq.com/)
+- [graphviz](https://networkx.github.io/)
