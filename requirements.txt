@@ -1,0 +1,14 @@
+pip==18.1
+setuptools==39.1.0
+wheel==0.30.0
+jupyter==1.0.0
+matplotlib==2.2.2
+seaborn==0.8.1
+scikit_learn==0.20.0
+scipy==1.4.1
+numpy==1.19.4
+pandas==0.23.4
+kaggle==1.4.7.1
+keras==2.3
+datatable
+psutil
